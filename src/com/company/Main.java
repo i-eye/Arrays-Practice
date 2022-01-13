@@ -1,7 +1,7 @@
 package com.company;
 /*
     Ivan Freeman
-    January 13, 2022
+    January 13, 2022,
     There are three methods
     method two() gets user input for a two by two integer 2d array, then prints the sum of row two and column two
     method three() puts random numbers between 1-100 in a 4 by 5 integer 2d array, then prints the sum of the major diagonal
@@ -14,8 +14,8 @@ public class Main {
     public static void main(String[] args) {
         int[][] val = {{1,2},{-1,-2}}; // this array is for debugging purposes, but is kept in so that I don't get an error
         // runs the three programs
-	// two();
-        // three();
+	    two();
+        three();
         four(val);
     }
 
@@ -52,6 +52,7 @@ public class Main {
     }
     public static void three(){
         // creates an array and fills it with diagonal numbers
+        System.out.println("Array of random numbers between 0 and 100: ");
         int[][] randomArray = new int[4][5];
         for(int x = 0; x<randomArray.length;x++){
             for(int y = 0; y<randomArray[x].length;y++){
