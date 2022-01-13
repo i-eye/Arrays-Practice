@@ -89,8 +89,8 @@ public class Main {
             }
         }
         // prints the amount of negative, zero, and positive numbers
-        System.out.println("Number of negative numbers "+negNums);
-        System.out.println("Number of zeros "+zeros);
-        System.out.println("Number of positive numbers "+posNums);
+        System.out.println("Number of negative numbers: "+negNums);
+        System.out.println("Number of zeros: "+zeros);
+        System.out.println("Number of positive numbers: "+posNums);
     }
 }
